@@ -1,0 +1,9 @@
+google-play-scraper
+pandas
+jupyter
+matplotlib
+seaborn
+transformers
+torch
+spacy
+scikit-learn
