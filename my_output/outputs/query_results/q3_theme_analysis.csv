@@ -1,0 +1,47 @@
+bank_name,topic_name,total,avg_rating,pct_negative,pct_positive,pain_rank,driver_rank
+BOA,General Banking Experience,153,1.69,90.8,2.0,1,7
+BOA,General App Complaints,107,1.64,86.9,7.5,2,3
+BOA,PIN and Keyboard Issues,32,1.81,84.4,3.1,3,9
+BOA,Amharic Complaints,16,1.44,100.0,0.0,4,14
+BOA,boa | this | app | with,19,2.42,68.4,15.8,5,7
+BOA,Speed and Convenience,57,3.86,17.5,64.9,6,1
+BOA,Amharic Reviews,19,2.84,47.4,31.6,7,5
+BOA,Dashen Super App Feedback,44,4.07,11.4,81.8,8,2
+BOA,cbe | app | the | is,4,1.75,50.0,0.0,9,14
+BOA,CBE Specific Feedback,7,4.43,14.3,57.1,10,6
+BOA,Amole and OTP Issues,2,3.0,50.0,50.0,10,9
+BOA,General Positive Feedback,1,2.0,100.0,0.0,10,14
+BOA,application | good | very | amazing,7,4.43,0.0,100.0,13,4
+BOA,Developer Options and Settings,11,2.73,0.0,9.1,13,9
+BOA,አይሰራም | በጣም | ለምንድነው | መሆንሁ,9,3.67,0.0,11.1,13,9
+BOA,Positive General Feedback,2,1.0,0.0,50.0,13,9
+CBE,General Banking Experience,75,2.51,82.7,4.0,1,8
+CBE,General App Complaints,77,2.66,58.4,24.7,2,3
+CBE,General Positive Feedback,27,2.56,77.8,11.1,3,8
+CBE,cbe | app | the | is,18,3.56,33.3,50.0,4,5
+CBE,Speed and Convenience,79,4.61,3.8,83.5,5,2
+CBE,Amharic Complaints,4,2.5,75.0,0.0,5,12
+CBE,Dashen Super App Feedback,82,4.73,2.4,89.0,7,1
+CBE,boa | this | app | with,2,1.0,100.0,0.0,7,12
+CBE,Amharic Reviews,16,4.75,6.3,87.5,9,4
+CBE,CBE Specific Feedback,14,4.71,7.1,57.1,9,7
+CBE,Positive General Feedback,5,2.8,20.0,40.0,9,10
+CBE,PIN and Keyboard Issues,3,2.33,33.3,33.3,9,11
+CBE,አይሰራም | በጣም | ለምንድነው | መሆንሁ,6,3.67,16.7,0.0,9,12
+CBE,application | good | very | amazing,10,4.8,0.0,90.0,14,5
+CBE,Developer Options and Settings,17,3.88,0.0,0.0,14,12
+Dashen,General Banking Experience,39,1.97,89.7,2.6,1,10
+Dashen,General App Complaints,91,3.58,37.4,58.2,2,3
+Dashen,Speed and Convenience,70,4.14,17.1,70.0,3,4
+Dashen,Amole and OTP Issues,14,2.86,64.3,28.6,4,8
+Dashen,Positive General Feedback,126,4.67,6.3,88.9,5,1
+Dashen,Dashen Super App Feedback,82,4.62,9.8,86.6,5,2
+Dashen,Amharic Complaints,7,1.0,100.0,0.0,7,14
+Dashen,General Positive Feedback,6,2.17,83.3,16.7,8,10
+Dashen,Amharic Reviews,19,4.21,15.8,78.9,9,5
+Dashen,PIN and Keyboard Issues,5,3.0,40.0,40.0,10,9
+Dashen,CBE Specific Feedback,8,5.0,12.5,75.0,11,7
+Dashen,cbe | app | the | is,2,2.5,50.0,50.0,11,10
+Dashen,application | good | very | amazing,7,5.0,0.0,100.0,13,6
+Dashen,Developer Options and Settings,15,4.13,0.0,6.7,13,10
+Dashen,አይሰራም | በጣም | ለምንድነው | መሆንሁ,2,1.5,0.0,0.0,13,14

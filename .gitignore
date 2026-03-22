@@ -1,8 +1,58 @@
+# ── Python ────────────────────────────────────────────────
 __pycache__/
 *.pyc
-.env
-venv/
+*.pyo
+*.pyd
+.Python
+
+# ── Environments ──────────────────────────────────────────
 env/
+venv/
+.venv/
+.env
+*.env
+
+# ── Jupyter ───────────────────────────────────────────────
 .ipynb_checkpoints/
-data/
-*.csv
+*.ipynb_checkpoints
+
+# ── Data files (large / auto-generated) ──────────────────
+# Uncomment lines below if you do NOT want to track data
+# *.csv
+# *.duckdb
+# *.sql
+
+# ── Binary / Large model artifacts ───────────────────────
+*.duckdb
+*.pkl
+*.joblib
+*.h5
+*.bin
+
+# ── Large image outputs (optional — comment out to track) ─
+# my_output/charts/*.png
+# my_output/b5w2_outputs/*.png
+
+# ── OS artifacts ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Build artifacts ───────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Spacy models ─────────────────────────────────────────
+en_core_web_sm/
+en_core_web_lg/
+
+# ── Kaggle secrets ───────────────────────────────────────
+kaggle.json
+*.token

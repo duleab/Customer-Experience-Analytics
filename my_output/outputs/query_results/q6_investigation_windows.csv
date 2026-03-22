@@ -1,0 +1,4 @@
+bank_name,window_label,window_reviews,window_avg_rating,window_pct_neg,window_pct_pos,baseline_pct_neg,sentiment_delta
+BOA,May 2024 spike,219,2.3,68.4,18.4,59.8,8.6
+CBE,Aug 2025 inflection,770,3.89,32.5,46.3,32.5,0.0
+Dashen,Jan-Apr 2025 launch,351,4.42,13.0,76.6,23.9,-10.9

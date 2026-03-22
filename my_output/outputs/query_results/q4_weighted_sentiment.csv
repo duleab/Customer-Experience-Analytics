@@ -1,0 +1,10 @@
+bank_name,sentiment_label,review_count,pct_unweighted,pct_weighted,weight_gap
+BOA,negative,369,59.8,87.7,27.9
+BOA,neutral,110,17.8,6.2,-11.6
+BOA,positive,138,22.4,6.1,-16.3
+CBE,negative,174,32.5,83.2,50.7
+CBE,neutral,114,21.3,5.6,-15.7
+CBE,positive,248,46.3,11.3,-35.0
+Dashen,negative,139,23.9,35.3,11.4
+Dashen,neutral,73,12.6,1.7,-10.9
+Dashen,positive,369,63.5,63.0,-0.5

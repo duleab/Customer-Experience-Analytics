@@ -1,0 +1,10 @@
+bank_name,sentiment_label,review_count,pct_of_bank,avg_rating,avg_confidence
+BOA,negative,369,59.8,1.44,0.862
+BOA,positive,138,22.4,4.47,0.884
+BOA,neutral,110,17.8,3.23,0.683
+CBE,positive,248,46.3,4.68,0.892
+CBE,negative,174,32.5,2.2,0.788
+CBE,neutral,114,21.3,3.91,0.686
+Dashen,positive,369,63.5,4.86,0.916
+Dashen,negative,139,23.9,1.74,0.833
+Dashen,neutral,73,12.6,3.64,0.696

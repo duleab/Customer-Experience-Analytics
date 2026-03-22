@@ -1,0 +1,4 @@
+bank,review_count,avg_rating,english_reviews,short_reviews,dev_replies,earliest_date,latest_date,missing_text_rate,pct_english,pct_short,pct_dev_reply
+BOA,790,2.71,558,136,0,2024-04-29,2026-03-20,0.0,70.6,17.2,0.0
+CBE,770,3.89,482,164,0,2025-08-30,2026-03-21,0.0,62.6,21.3,0.0
+Dashen,722,4.03,547,75,2,2025-01-11,2026-03-17,0.0,75.8,10.4,0.3
