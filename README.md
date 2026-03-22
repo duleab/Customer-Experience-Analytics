@@ -82,48 +82,44 @@ Reviews were scraped using the `google-play-scraper` Python library. The final c
 ## Project Structure
 
 ```
-ethiopian-fintech-sentiment/
+Customer-Experience-Analytics/
 │
-├── my_output/
-│   ├── notebooks/
-│   │   ├── task_1_data_collection.ipynb       # Scraping + preprocessing
-│   │   ├── task_2_nlp_pipeline.ipynb          # Sentiment + topic modeling
-│   │   ├── task_3_database.ipynb              # DuckDB schema + SQL queries
-│   │   └── task_4_visualization_report.ipynb  # Charts + recommendations
-│   │
-│   ├── outputs/
-│   │   ├── reviews_raw.csv                    # Unmodified scraped data
-│   │   ├── reviews_clean.csv                  # Preprocessed dataset
-│   │   ├── reviews_enriched.csv               # Full NLP-labeled dataset
-│   │   ├── keywords_per_bank.csv              # TF-IDF keywords per bank
-│   │   ├── topics_summary.csv                 # BERTopic topic metadata
-│   │   ├── bank_reviews.duckdb                # Full relational database (git-ignored)
-│   │   ├── bank_reviews_dump.sql              # SQL schema + sample data
-│   │   ├── data_quality_report.csv            # Data validation metrics
-│   │   ├── exploratory_charts/                # Intermediate EDA charts
-│   │   └── query_results/
-│   │       ├── q1_sentiment_summary.csv
-│   │       ├── q2_monthly_sentiment_trend.csv
-│   │       ├── q3_theme_analysis.csv
-│   │       ├── q4_weighted_sentiment.csv
-│   │       ├── q5_bank_scorecard.csv
-│   │       └── q6_investigation_windows.csv
-│   │
-│   ├── charts/
-│   │   ├── chart1_executive_overview.png
-│   │   ├── chart2_sentiment_trends.png
-│   │   ├── chart3_weighted_sentiment.png
-│   │   ├── chart4_theme_distribution.png
-│   │   ├── chart5_pain_points_drivers.png
-│   │   ├── chart6_rating_distribution.png
-│   │   └── chart7_wordclouds_negative.png
-│   │
-│   ├── report/
-│   │   ├── B5W2_Customer_Experience_Analytics_Report.docx
-│   │   └── B5W2_Customer_Experience_Analytics_Report.pdf
-│   │
-│   ├── requirements.txt
-│   └── README.md
+├── notebooks/
+│   ├── task_1_data_collection.ipynb       # Scraping + preprocessing
+│   ├── task_2_nlp_pipeline.ipynb          # Sentiment + topic modeling
+│   ├── task_3_database.ipynb              # DuckDB schema + SQL queries
+│   └── task_4_visualization_report.ipynb  # Charts + recommendations
+│
+├── outputs/
+│   ├── reviews_raw.csv                    # Unmodified scraped data
+│   ├── reviews_clean.csv                  # Preprocessed dataset
+│   ├── reviews_enriched.csv               # Full NLP-labeled dataset
+│   ├── keywords_per_bank.csv              # TF-IDF keywords per bank
+│   ├── topics_summary.csv                 # BERTopic topic metadata
+│   ├── bank_reviews.duckdb                # Full relational database (git-ignored)
+│   ├── bank_reviews_dump.sql              # SQL schema + sample data
+│   ├── data_quality_report.csv            # Data validation metrics
+│   ├── exploratory_charts/                # Intermediate EDA charts
+│   └── query_results/
+│       ├── q1_sentiment_summary.csv
+│       ├── q2_monthly_sentiment_trend.csv
+│       ├── q3_theme_analysis.csv
+│       ├── q4_weighted_sentiment.csv
+│       ├── q5_bank_scorecard.csv
+│       └── q6_investigation_windows.csv
+│
+├── charts/
+│   ├── chart1_executive_overview.png
+│   ├── chart2_sentiment_trends.png
+│   ├── chart3_weighted_sentiment.png
+│   ├── chart4_theme_distribution.png
+│   ├── chart5_pain_points_drivers.png
+│   ├── chart6_rating_distribution.png
+│   └── chart7_wordclouds_negative.png
+│
+├── report/
+│   ├── B5W2_Customer_Experience_Analytics_Report.docx
+│   └── B5W2_Customer_Experience_Analytics_Report.pdf
 │
 ├── requirements.txt
 ├── .gitignore
@@ -390,19 +386,19 @@ BOA and CBE combined have 0% developer reply rate across 1,560 reviews. Dashen r
 
 <table>
 <tr>
-<td><img src="my_output/charts/chart1_executive_overview.png" alt="Executive Overview" width="400"/><br><em>Fig 1: Executive sentiment overview</em></td>
-<td><img src="my_output/charts/chart2_sentiment_trends.png" alt="Sentiment Trends" width="400"/><br><em>Fig 2: Sentiment trends over time</em></td>
+<td><img src="charts/chart1_executive_overview.png" alt="Executive Overview" width="400"/><br><em>Fig 1: Executive sentiment overview</em></td>
+<td><img src="charts/chart2_sentiment_trends.png" alt="Sentiment Trends" width="400"/><br><em>Fig 2: Sentiment trends over time</em></td>
 </tr>
 <tr>
-<td><img src="my_output/charts/chart3_weighted_sentiment.png" alt="Weighted Sentiment" width="400"/><br><em>Fig 3: Weighted vs unweighted gap</em></td>
-<td><img src="my_output/charts/chart4_theme_distribution.png" alt="Theme Distribution" width="400"/><br><em>Fig 4: Theme distribution heatmap</em></td>
+<td><img src="charts/chart3_weighted_sentiment.png" alt="Weighted Sentiment" width="400"/><br><em>Fig 3: Weighted vs unweighted gap</em></td>
+<td><img src="charts/chart4_theme_distribution.png" alt="Theme Distribution" width="400"/><br><em>Fig 4: Theme distribution heatmap</em></td>
 </tr>
 <tr>
-<td><img src="my_output/charts/chart5_pain_points_drivers.png" alt="Pain Points" width="400"/><br><em>Fig 5: Pain points and drivers</em></td>
-<td><img src="my_output/charts/chart6_rating_distribution.png" alt="Rating Distribution" width="400"/><br><em>Fig 6: Rating distribution J-curves</em></td>
+<td><img src="charts/chart5_pain_points_drivers.png" alt="Pain Points" width="400"/><br><em>Fig 5: Pain points and drivers</em></td>
+<td><img src="charts/chart6_rating_distribution.png" alt="Rating Distribution" width="400"/><br><em>Fig 6: Rating distribution J-curves</em></td>
 </tr>
 <tr>
-<td colspan="2"><img src="my_output/charts/chart7_wordclouds_negative.png" alt="Word Clouds" width="800"/><br><em>Fig 7: Negative vocabulary word clouds</em></td>
+<td colspan="2"><img src="charts/chart7_wordclouds_negative.png" alt="Word Clouds" width="800"/><br><em>Fig 7: Negative vocabulary word clouds</em></td>
 </tr>
 </table>
 
