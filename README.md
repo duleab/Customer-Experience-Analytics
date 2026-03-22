@@ -576,8 +576,7 @@ This analysis has five documented limitations:
 
 ## Contributors
 
-Built as part of the **10 Academy
-** challenge.
+Built as part of the **10 Academy** challenge.
 
 - Data collection and preprocessing: Task 1
 - NLP pipeline: Task 2
