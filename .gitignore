@@ -33,6 +33,10 @@ venv/
 # my_output/charts/*.png
 # my_output/b5w2_outputs/*.png
 
+# ── Course / local-only folders ──────────────────────────
+Technical Content/
+env/
+
 # ── OS artifacts ─────────────────────────────────────────
 .DS_Store
 Thumbs.db
